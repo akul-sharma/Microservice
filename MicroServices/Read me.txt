@@ -1,0 +1,22 @@
+1.	Customer Management Service with below mentioned APIs:
+
+a.	POST-> localhost:8083/customers    //Add customer
+     
+b.	GET-> localhost:8083/customers    //Get all Customers
+
+c.	GET-> localhost:8083/customers/{customerId}    //Get single Customer Details
+
+d.	PUT-> localhost:8083/customers/{customerId}    //Update Customer Details
+
+e.	DELETE-> localhost:8083/customers/{customerId}   //Delete Customer
+
+
+2.	Account Management service with below mentioned APIs:
+
+a.	POST-> localhost:8083/accounts/add/{customerId}    //Add Money to account
+
+b.	POST-> localhost:8083/accounts/withdraw/{customerId}    //Withdraw money from account
+
+c.	GET-> localhost:8083/accounts/{customerId}      //Get Account details
+
+d.	DELETE-> localhost:8083/accounts/{customerId}    //Delete Account.
